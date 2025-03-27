@@ -1,4 +1,4 @@
-# VS Code Command Extractor
+# VS Code Command Exporter
 
 A PowerShell script that automatically extracts all available commands from Visual Studio Code.
 
@@ -13,11 +13,11 @@ This tool helps you discover all the commands available in VS Code by:
 
 ## How to use
 
-1. Save the script as `VSCodeCommandExtractor.ps1`
+1. Save the script as `VSCodeCommandExporter.ps1`
 2. Open PowerShell and navigate to the directory containing the script
 3. Run the script:
    ```powershell
-   .\VSCodeCommandExtractor.ps1
+   .\VSCodeCommandExporter.ps1
    ```
 4. The script will minimize VS Code windows and work silently in the background
 5. When complete, it will open the output file containing all VS Code commands
